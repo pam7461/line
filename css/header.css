@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-.header{position:fixed;left:0;top:0;width:100%;border-bottom:3px solid #3b3b3b;padding:23px 0 22px;background:white;}
+.header{position:fixed;left:0;top:0;z-index:9999;width:100%;border-bottom:3px solid #3b3b3b;padding:23px 0 22px;background:white;}
 .header_left>div:first-child{width:60px;margin-right:20px;overflow:hidden;}
 img[src*=line_img]{width:100%;}
 .header_left>div:last-child{margin-top:1px;}
