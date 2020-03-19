@@ -16,16 +16,22 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main_banner.css">
   <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/service.css">
+  <link rel="stylesheet" href="css/footer.css">
   <style>
-    .service{}
-    .service li{width:280px;margin:0 60px 60px 0;}
-    .service li:nth-child(3){margin-right:0;}
-    .service h3{margin:15px 0;}
-    .service h3.time::after{content:'';display:inline-block;width:14px;height:14px;margin:0 0 -1px 7px;background:url('images/icons_set.png') -674px 0;background-size:1101px;}
-    .service p{font-weight:100;font-size:13px;line-height:20px;}
+    
+    .header{display:none;}
   </style>
 </head>
 <body>
+  <div class="skip_menu">
+    <p><a href="#free_msg">무료 메시지</a></p>
+    <p><a href="#free_call">영상/음성 통화</a></p>
+    <p><a href="#sticker">LINE 스티커</a></p>
+    <p><a href="#free_voice">음성 메시지</a></p>
+    <p><a href="#life">꿀팁</a></p>
+    <p><a href="#service">서비스</a></p>
+  </div>
   <div class="wrap">
     <!-- header section -->
     <header class="header">
@@ -70,7 +76,7 @@
       </div>
     </section>
     <!-- free msg section -->
-    <section class="section free_msg">
+    <section class="section free_msg" id="free_msg">
       <div class="row">
         <ul class="clearfix">
           <li class="sec_img fl_left">
@@ -87,7 +93,7 @@
       </div>
     </section>
     <!-- free_call section -->
-    <section class="section free_call">
+    <section class="section free_call" id="free_call">
       <div class="row">
         <ul class="clearfix">
           <li class="sec_img fl_right">
@@ -106,7 +112,7 @@
       </div>
     </section>
     <!-- sticker section  -->
-    <section class="section sticker">
+    <section class="section sticker" id="sticker">
       <div class="row">
         <ul class="clearfix">
           <li class="sec_img fl_left">
@@ -124,7 +130,7 @@
       </div>
     </section>
     <!-- free_voice section  -->
-    <section class="section free_voice">
+    <section class="section free_voice" id="free_voice">
       <div class="row">
         <ul class="clearfix">
           <li class="sec_img fl_right">
@@ -140,7 +146,7 @@
       </div>
     </section>
     <!-- life section  -->
-    <section class="section life">
+    <section class="section life" id="life">
       <div class="row">
         <ul class="clearfix">
           <li class="sec_img fl_left">
@@ -155,7 +161,7 @@
       </div>
     </section>
     <!-- service section  -->
-    <section class="service">
+    <section class="service" id="service">
       <div class="row">
         <ul class="clearfix">
           <li class="fl_left">
@@ -210,10 +216,22 @@
         </ul>
       </div>
     </section>
-
     <!-- footer section  -->
     <footer class="footer">
-      <div class="row"></div>
+      <div class="row">
+        <div class="footer_nav">
+          <a href="#">도움말<span></span></a>
+          <a href="#">이용약관<span></span></a>
+          <a href="#">개인정보 처리방침<span></span></a>
+          <a href="#">LINE Social Plugins<span></span></a>
+          <a href="#">LINE Creators Market<span></span></a>
+          <a href="#">LINE 로고 사용 가이드<span></span></a>
+          <a href="#">LINE Partners<span></span></a>
+          <a href="#">LINE 블로그<span></span></a>
+          <a href="#">채용정보</a>
+        </div>
+        <p>@ LINE Corporration</p>
+      </div>
     </footer>
   </div>
 </body>
